@@ -18,6 +18,7 @@ int main()
 		meta->makeSound();
 	}
 
+	/* Wrong */
 	{
 		const WrongAnimal* meta = new WrongAnimal();
 		const WrongAnimal* i = new WrongCat();
