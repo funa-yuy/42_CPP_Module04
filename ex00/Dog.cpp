@@ -12,7 +12,6 @@ Dog::Dog() : Animal() {
  * コンストラクタ
  */
 Dog::Dog(std::string type) : Animal(type) {
-	setType(type);
 	std::cout << "Dog " << _type << " コンストラクタが呼ばれました" << std::endl;
 }
 
@@ -20,7 +19,6 @@ Dog::Dog(std::string type) : Animal(type) {
  * コピーコンストラクタ
  */
 Dog::Dog(const Dog& copy) : Animal(copy) {
-	setType(copy._type);
 	std::cout << "Dog " << _type << " コピーコンストラクタが呼ばれました" << std::endl;
 }
 
