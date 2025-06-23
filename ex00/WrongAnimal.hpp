@@ -24,7 +24,7 @@ class WrongAnimal {
 		void	setType(const std::string& type);
 		const std::string&	getType() const;
 
-		void	makeSound() const;
+		void	makeSound() const;//仮想関数ではない
 
 	protected:
 		std::string _type;

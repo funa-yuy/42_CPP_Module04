@@ -22,7 +22,7 @@ class WrongCat : public WrongAnimal {
 		WrongCat& operator=(const WrongCat& copy);
 		~WrongCat();
 
-		void	makeSound() const;
+		void	makeSound() const;//仮想関数ではない関数に対してのオーバーライド
 };
 
 // ------------------------------------------------
